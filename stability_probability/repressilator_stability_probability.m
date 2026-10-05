@@ -4,7 +4,8 @@
 % ========================================================================
 clear; clc; close all;
 
-addpath(genpath('C:\Users\pagoa\Downloads\PoCET-master\PoCET-master'));
+% Edit the next line to point to your PoCET-master folder
+addpath(genpath('C:\path\to\PoCET-master'));
 if exist('get_PSImap', 'file') ~= 2
     error('get_PSImap not found: check that the full PoCET toolbox folder (including auxiliary/) is on the path.');
 end
