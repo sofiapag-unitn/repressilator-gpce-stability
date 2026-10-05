@@ -7,9 +7,8 @@
 % N is simply whatever each method accumulates within the clock 
 
 % Quadrature exception: it is a deterministic rule with a fixed cost
-% (4096 true-model evaluations). It either fits in the budget or it
-% doesn't 
-%
+% (4096 true-model evaluations). 
+
 % gPCE surrogate: the one-time training cost (4096 true-model evals +
 % coefficient solve) is reported separately 
 % Ground truth: N = 5,000,000 unconstrained MC
